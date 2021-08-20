@@ -6,9 +6,9 @@ publish = "dist"
 
 [dev]
 framework = "#custom"
-command = "npm run dev"
-targetPort = 8080
-post = 8888
+command = "npm run dev:webpack"
+targetPort = 8079
+port = 8080
 publish = "dist"
  
  
