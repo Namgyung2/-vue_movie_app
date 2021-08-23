@@ -12,7 +12,7 @@
       {{ name }}
     </div>
     <div>{{ email }}</div>
-    <div>{{ blog }}</div>
+    <div>gitHub : <a :href="gitHub">{{ gitHub }}</a></div>
     <div>{{ phone }}</div>
   </div>
 </template>
@@ -34,7 +34,7 @@ export default {
       'image',
       'name',
       'email',
-      'blog',
+      'gitHub',
       'phone'
     ])
   },
